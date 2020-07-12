@@ -1,0 +1,36 @@
+@import 'bulma/sass/utilities/initial-variables.sass';
+@import "bulma/sass/utilities/functions.sass";
+
+
+// bulma colors
+/* Base: Size  */
+$size-base: 1rem;
+$default-padding: $size-base * 1.5;
+
+/* Default font */
+$family-sans-serif:'Poppins', sans-serif;
+$family-primary: $family-sans-serif;
+
+/* Base color */
+$base-color: rgb(230, 31, 43); 
+$base-color-headers:rgb(31, 31, 66);
+
+/* background colors Bulma override */
+$body-background-color: $white-ter;
+
+/* Footer: Bulma override */
+$footer-background-color: $white;
+
+$navbar-height: 3.5rem;
+
+/* colors: Bulma override */
+$primary: $base-color;
+$link: $base-color;
+//$link-visited: $purple;
+$notification-background-color: $base-color;
+
+
+@import 'bulma/sass/utilities/derived-variables.sass';
+@import "bulma/sass/utilities/animations.sass";
+@import "bulma/sass/utilities/mixins.sass";
+@import "bulma/sass/utilities/controls.sass";

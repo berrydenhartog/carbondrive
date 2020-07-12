@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Crawl-delay: 3
+
+sitemap: http://carbondrive.nl/sitemap.xml

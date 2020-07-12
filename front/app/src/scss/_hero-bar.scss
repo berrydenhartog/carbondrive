@@ -1,0 +1,12 @@
+section.hero {
+    background-size: cover;
+    background-position: center center;
+}
+
+section.hero h1 {
+    color: $base-color-headers;
+}
+
+section.hero .box {
+  width: fit-content;
+}

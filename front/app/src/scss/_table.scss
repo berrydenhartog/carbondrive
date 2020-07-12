@@ -1,0 +1,9 @@
+table {
+  @include until($tablet) {
+    font-size: 0.6rem;
+  }
+}
+
+.table-field-body {
+  max-width: 100%;
+}

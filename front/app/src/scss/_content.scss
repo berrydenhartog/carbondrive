@@ -1,0 +1,5 @@
+.content p {
+  @include until($tablet) {
+    font-size: 0.85rem !important;
+  }
+}
